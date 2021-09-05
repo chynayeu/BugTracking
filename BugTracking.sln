@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugTracking", "BugTracking\BugTracking.csproj", "{C6F537EC-A2A5-47AF-AC7D-2BDE707665EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugTracking.DAL", "BugTracking.DAL\BugTracking.DAL.csproj", "{93AACFC0-11AB-45EF-91D6-F1C0814C2E30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6F537EC-A2A5-47AF-AC7D-2BDE707665EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F537EC-A2A5-47AF-AC7D-2BDE707665EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F537EC-A2A5-47AF-AC7D-2BDE707665EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F537EC-A2A5-47AF-AC7D-2BDE707665EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93AACFC0-11AB-45EF-91D6-F1C0814C2E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93AACFC0-11AB-45EF-91D6-F1C0814C2E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93AACFC0-11AB-45EF-91D6-F1C0814C2E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93AACFC0-11AB-45EF-91D6-F1C0814C2E30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4A07116-BB68-4430-878C-ED64F54A3A50}
+	EndGlobalSection
+EndGlobal

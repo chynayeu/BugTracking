@@ -1,0 +1,19 @@
+﻿
+@model IEnumerable<BugTracking.Models.UserModel>
+
+@{ 
+    var project = ViewData["Project"] as ProjectModel;
+}
+<h2>Изменение ролей для проекта : @project.Name</h2>
+
+<form asp-action="SaveUsers" method="post">
+    <input type="hidden" name="projectId" value="@project.Id" />
+    <div class="form-group">
+        @foreach (var user in Model)
+        {
+            <input type="checkbox" name="users" value="@user.Email" @(user.Checked ? "checked=\"checked\"" : "") /> @user.Name @user.Surname
+                <br />
+        }
+    </div>
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+</form>
